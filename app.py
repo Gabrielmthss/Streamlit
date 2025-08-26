@@ -656,7 +656,7 @@ elif pagina == "📈 Evolução Temporal":
         )
         st.plotly_chart(fig, use_container_width=True)
 
-# --- FOOTER ---
+# --- FOOTER --- ok
 st.sidebar.markdown("---")
 st.sidebar.markdown("**💡 Dicas:**")
 st.sidebar.markdown("• Desmarque 2025 se os dados estão incompletos")
