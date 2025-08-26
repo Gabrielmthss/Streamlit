@@ -654,10 +654,3 @@ elif pagina == "📈 Evolução Temporal":
         )
         st.plotly_chart(fig, use_container_width=True)
 
-# --- FOOTER --- ok
-st.sidebar.markdown("---")
-st.sidebar.markdown("**💡 Dicas:**")
-st.sidebar.markdown("• Desmarque 2025 se os dados estão incompletos")
-st.sidebar.markdown("• Use os filtros para análises específicas")
-st.sidebar.markdown("• Analise países detalhadamente na seção específica")
-st.sidebar.markdown("• FOB e Quantidade sempre aparecem juntos")
