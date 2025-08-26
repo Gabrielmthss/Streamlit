@@ -8,9 +8,7 @@ from plotly.subplots import make_subplots
 # --- ETAPA 2: CARREGAR OS DADOS BRUTOS ---
 @st.cache_data
 def carregar_dados():
-    df = pd.read_excel(
-        "C:/Users/gabri/Downloads/Dados/Importação e Exportação/Importação e Exportação - 19-25.xlsx"
-    )
+    df = pd.read_excel("Importação e Exportação - 19-25.xlsx")
     # Renomear colunas fixas
     df = df.rename(columns={
         "Países": "Pais",
